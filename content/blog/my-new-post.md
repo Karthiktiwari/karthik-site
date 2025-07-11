@@ -1,49 +1,19 @@
-baseURL = "https://karthiktiwari.vercel.app"
-languageCode = "en-US"
-title = "Karthik Tiwari"
-theme = "hugo-bearblog"
-author = "Karthik Tiwari"
-enableRobotsTXT = true
-copyright = "Copyright © 2025, Karthik Tiwari."
++++
+title = "Introducing My Site"
+date = "2025-07-12T12:00:00+05:30"
++++
 
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
+Welcome to my personal blog.
 
-# Custom permalinks: blog posts appear at /blog/my-post/
-[permalinks]
-  blog = "/blog/:slug/"
+I’m Karthik Tiwari, a software engineer working at the intersection of infrastructure, AI systems, and creative automation. Over the past few years, I've worked across industries — from high-scale return logistics and data pipelines at Walmart to AI-augmented developer platforms at Intuit.
 
-[params]
-  title = "Karthik Tiwari"
-  description = "AI Engineer. Systems Builder. Creative Technologist."
-  favicon = "images/favicon.png"
-  images = ["images/share.png"]
-  # hideMadeWithLine = true
-  # dateFormat = "2006-01-02"
+This site is a space for me to share technical insights, system design notes, and lessons learned while building tools that integrate intelligence into workflows. Most recently, I’ve been working on **Amplifier** — a multi-agent platform that generates brand creatives using layout-aware templates, vision-language models, and image-to-image refinement.
 
-[menu]
+Through this blog, I plan to document:
+- Practical applications of generative AI in production
+- System architecture decisions from my engineering work
+- Build logs and experiments from projects like Amplifier
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 1
+If you're interested in AI, systems thinking, or how infrastructure and creativity intersect — you're in the right place.
 
-  [[menu.main]]
-    identifier = "blog"
-    name = "Blog"
-    url = "/blog/"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
-    weight = 3
-
-[markup]
-  [markup.highlight]
-    style = "friendly"
-    lineNos = true
-    lineNumbersInTable = false
-    codeFences = true
+Thanks for stopping by.
