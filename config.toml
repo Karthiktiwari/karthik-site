@@ -1,4 +1,4 @@
-baseURL = "https://karthiktiwari.vercel.app"  # or your custom domain
+baseURL = "https://karthiktiwari.vercel.app"
 languageCode = "en-US"
 title = "Karthik Tiwari"
 theme = "hugo-bearblog"
@@ -6,11 +6,9 @@ author = "Karthik Tiwari"
 copyright = "Copyright © 2025, Karthik Tiwari."
 enableRobotsTXT = true
 
-# Disable taxonomy pages (tags/categories) if unused
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
-# Permalinks — this ensures /posts/my-blog-post/ URLs
 [permalinks]
   posts = "/posts/:slug/"
 
@@ -19,8 +17,28 @@ ignoreErrors = ["error-disable-taxonomy"]
   favicon = "images/favicon.png"
   images = ["images/share.png"]
   title = "Karthik Tiwari"
-  # hideMadeWithLine = true  # Uncomment to remove footer attribution
-  # dateFormat = "2006-01-02"  # Optional: ISO date format
+  # hideMadeWithLine = true
+  # dateFormat = "2006-01-02"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
 
 [markup]
   [markup.highlight]
