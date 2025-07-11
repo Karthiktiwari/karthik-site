@@ -11,8 +11,7 @@ ignoreErrors = ["error-disable-taxonomy"]
 
 # Custom permalinks: blog posts appear at /blog/my-post/
 [permalinks]
-  blog = "/:slug/"
-  tags = "/blog/:slug"
+  blog = "/blog/:slug/"
 
 [params]
   title = "Karthik Tiwari"
