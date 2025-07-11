@@ -10,7 +10,7 @@ disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
 
 [permalinks]
-  posts = "/posts/:slug/"
+  blog = "/blog/:slug/"
 
 [params]
   description = "AI Engineer. Systems Builder. Creative Technologist."
