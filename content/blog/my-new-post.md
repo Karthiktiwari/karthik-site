@@ -1,7 +1,7 @@
-+++
-title = "Introducing My Site"
-date = "2025-07-12T12:00:00+05:30"
-+++
+---
+title: "Introducing My Site"
+date: "2025-07-12T12:00:00+05:30"
+---
 
 Welcome to my personal blog.
 
