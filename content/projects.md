@@ -4,9 +4,9 @@ title: "Projects"
 
 ### 🔥 Amplifier – AI Creative Platform
 Multi-agent pipeline for generating high-quality brand creatives. Combines:
-- Vision-language model prompts
-- Layout-aware templates
-- Imagen-based image-to-image refinement
+- LLM Based Agents for Intelligent Content Creation
+- Trends Aware Content Generation and Analysis Report
+- Imagen-based Social Media Posts Creation
 
 ### 📊 Sports Analytics RAG Dashboard
 Java + Spring Boot backend with vector DB search & natural language queries for sports insights.
